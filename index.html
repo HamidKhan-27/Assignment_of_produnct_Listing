@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <select name="brand" id="brandFilter">
+            <option value="All" selected>Brand</option>
+            <option value="Nike">Nike</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Puma">Puma</option>
+            <option value="Jordan">Jordan</option>
+          </select>
+        </li>
+
+        <li>
+          <select name="color" id="colorFilter">
+            <option value="All" selected>Color</option>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Grey">Grey</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+          </select>
+        </li>
+
+        <!-- <li>
+          <select name="size" id="sizeFilter">
+            <option value="All" selected>Size</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+          </select>
+        </li> -->
+      </ul>
+    </nav>
+
+    <div class="container product-container" id="container">
+      <!-- JavaScript will generate product cards here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
